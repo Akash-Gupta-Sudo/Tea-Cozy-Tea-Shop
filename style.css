@@ -14,20 +14,26 @@ header{
     
     height: 69px;
     width: 100%;
-   
-   
+    background-color: black;
+    position: fixed;
+    top: 0px;
     align-items: center;
     border-bottom: 1px solid seashell;
+    
+    
 }
 .img1{
     height: 50px;
     padding-left: 10px;
+    
 
 }
 
 nav {
     text-align: right;
     flex-grow: 1;
+    padding-right: 5px;
+  
     
   }
   nav a{
@@ -42,6 +48,7 @@ nav {
     align-items: center;
     padding-top: 70px;
     margin: auto;
+    
 }
 #mission div{
     background-color: black;
@@ -68,4 +75,32 @@ nav {
     width: 300px;
     padding:10px;
     
+}
+#locations{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+
+}
+.info{
+    width: 300px;
+    padding: 5px;
+    background-color: black;
+    margin: 40px;
+    padding-top: 15px;
+
+    
+}
+.infos{
+    align-items: flex-end !important;
+}
+footer div{
+    height: 200px;
+    text-align: center;
+}
+footer{
+    text-align: left;
+    padding:5px;
 }
