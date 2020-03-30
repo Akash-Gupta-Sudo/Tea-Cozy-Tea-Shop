@@ -50,7 +50,22 @@ nav {
    
 }
 
-.item{
+.item img{
     height: 200px;
+    
+    padding-bottom: 10px;
+}
+#store{
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+    height: 700px;
+
+ 
+    
+}
+.item{
     width: 300px;
+    padding:10px;
+    
 }
